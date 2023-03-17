@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>firts class htlm</title>
+    <link href="./1styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header class="nav">
+      <nav>
+        <a href="./home.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="#">contact</a>
+        <a href="./table.html">Prices</a>
+        <a href="./list.html">Benefits and Tips</a>
+        <a href="./from.html">Your dates</a>
+        <img src="./Resources/Gym/images/logo.png" alt="logo" />
+      </nav>
+    </header>
+    <main class="cont-from">
+      <div class="title-from">
+        <h1>Raffle</h1>
+        <h5>Every month in this section you can participate in a raffle.</h5>
+      </div>
+
+      <div class="from-all">
+        <div class="img-one">
+          <figure>
+            <img src="./Resources/Gym/images/image-3.jpg" alt="img-not-found" />
+          </figure>
+          <figure>
+            <img
+              src="./Resources/Gym/images/image-3.jpg"
+              alt="img-not-found"
+              class="img-fr"
+            />
+          </figure>
+        </div>
+
+        <form action="./show_data.html" method="get">
+          <fieldset class="title-fr">
+            <legend>
+              PARTICIPATE IN OUR RAFFLE FOR A MONTH OF PERSONALIZED TRAINING
+            </legend>
+          </fieldset>
+
+          <label for="name">Name:</label>
+          <input id="name" type="text" name="name" />
+
+          <label for="lastname">LastName:</label>
+          <input id="lastname" type="text" name="lastname" />
+
+          <label for="email">Email:</label>
+          <input id="email" type="email" name="email" />
+
+          <fieldset>
+            <label for="genre" class="opt">Chose your genre</label>
+            <select class="select" id="genre" name="genre">
+              <option>Feminine</option>
+              <option>Masculine</option>
+              <option>Others</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <label for="country" class="opt">Country</label>
+            <select class="select" id="country" name="country">
+              <option>Argentina</option>
+              <option>Colombia</option>
+              <option>Uruguay</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend class="opt">Payment Options</legend>
+            <label for="cash">Cash</label>
+            <input type="radio" name="cash" id="cash" value="c" />
+
+            <label for="cash-cards">Credit Cards</label>
+            <input type="radio" name="cash-cards" id="cash-cards" value="c-c" />
+
+            <label for="debit-cards">Debit Cards</label>
+            <input
+              type="radio"
+              name="debit-cards"
+              id="debit-cards"
+              value="d-c"
+            />
+          </fieldset>
+
+          <label for="services">Services</label>
+          <input id="services" type="text" name="services" class="services" />
+
+          <fieldset>
+            <input type="checkbox" id="terms" name="terms" />
+            <label for="terms">I accept terms and condins...</label>
+          </fieldset>
+          <button type="submit" value="send" class="submit">Send</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

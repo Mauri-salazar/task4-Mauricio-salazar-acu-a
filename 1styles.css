@@ -1,0 +1,738 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+}
+
+
+/* navbar*/
+
+.nav {
+  border-bottom: 1px solid #fff;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+}
+
+nav>a {
+  color: linear-gradient(#332B47, #3F999D);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 1000;
+}
+
+nav>a:hover{
+  color: #fff;
+}
+
+nav>img {
+  width: 5%;
+}
+
+
+/* home*/
+
+.principal {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.title h1 {
+  width: 100%;
+  font-size: 50px;
+}
+
+.title p {
+  font-size: 20px;
+}
+
+.btn {
+  display: none;
+}
+
+.img  img{
+  box-sizing: border-box;
+  width: 40%;
+}
+
+.second {
+  display: flex;
+  padding-bottom: 200px;
+  margin-left: 10%;
+}
+
+.wlc h5 {
+  text-align: center;
+  padding-left: 30%;
+  padding-top: 20%;
+}
+
+
+
+.img-2 img{
+  width: 40%;
+  border-radius: 5%;
+  padding-top: 10%;
+  margin-left: 15%;
+}
+
+/* about */
+
+.title-about {
+  text-align: center;
+  margin-top: 10rem;
+}
+
+.title-about h1 {
+  padding-top: 10px;
+}
+
+.title-about h3 {
+  font-size: 15px;
+}
+
+.cont-about section {
+  display:flex;
+  margin-top: 5%;
+}
+
+.cont-about img {
+  width: 30rem;
+  padding-left: 60%;
+}
+
+.cont-about h6 {
+  font-size: 1.6rem;
+  padding-left: 50%;
+  padding-top: 5%;
+  margin-left: 5%;
+}
+
+
+/* contact */
+
+.cont-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.title-contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title-contact h1 {
+  font-size: 4rem;
+}
+
+.img-contact img {
+    border-radius: 2%;
+    width: 100vh;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h5 {
+  margin-top: 20px;
+  width: 80vh ;
+  font-size: 2rem;
+  padding-left: 43rem;
+}
+
+.dates {
+  margin-top: 20px;
+}
+
+.dates a {
+  font-size: 2rem;
+  padding: 100px;
+  text-decoration: none;
+}
+
+
+
+/* table */
+
+.cont-tb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.table-all {
+  border: 2px solid #3F999D;
+  font-size: 2rem;
+  table-layout: fixed;
+  border-collapse: collapse;
+  height: 70vh;
+}
+
+.table-all thead {
+  background-color: #fff;
+  color: #000;
+}
+
+.table-all tr {
+  cursor: pointer;
+}
+
+.table-all tr:hover {
+  background-color: rgb(216, 115, 33);
+}
+
+.table-all th {
+  padding: 20px 15px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.table-all td {
+  padding: 15px;
+  border-bottom: 1px solid linear-gradient(#332B47, #3F999D) ;
+}
+
+
+/* list */
+
+.cont-lt {
+  margin-top: 10%;
+  box-sizing: border-box;
+}
+
+.title-lt {
+  text-align: center;
+}
+
+.title-lt h1 {
+  font-size: 50px;
+}
+
+.cont-lt section {
+  display: flex;
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+.section-one div {
+  margin-right: 1%;
+}
+
+.section-one p {
+  width: 30%;
+}
+
+
+.section-one figure {
+  width: 60vh;
+}
+
+.section-one img {
+  width: 50%;
+}
+
+.section-two {
+  padding-right: 9%;
+}
+
+.section-two figure {
+  width: 60vh;
+}
+
+.section-two img {
+  width:  55%;
+}
+
+.d-ol h5 {
+  font-size: 2rem;
+}
+
+.d-ol ol li {
+  width: 50%;
+  font-size: 1.5rem;
+}
+
+
+/* from */
+
+.cont-from {
+  margin-top: 10rem;
+}
+
+.title-from {
+  text-align: center;
+}
+
+.title-from h1 {
+  font-size: 3rem;
+}
+
+.title-from h5 {
+  font-size: 1rem;
+}
+
+.from-all {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5rem;
+}
+
+.from-all img {
+  width: 20vw;
+  padding: 1rem;
+  border-radius: 1.2rem ;
+  margin-top: 5%;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50vh;
+  margin-top: 2rem;
+  font-size: 1.7rem;
+}
+
+.title-fr {
+  padding: 3%;
+  text-align: center;
+  border: 0;
+}
+
+fieldset {
+  border: 0;
+  padding: 1%;
+}
+
+
+label {
+  color: #fff;
+  font-weight: 700;
+  padding: 1%;
+}
+
+.services {
+  height: 10vh;
+}
+
+.submit {
+  width: 5vw;
+  height: 4vh;
+  margin-top: 4%;
+  cursor: pointer;
+}
+
+.submit:hover {
+  background-color: #d38f21;
+}
+
+button {
+  font-size: 1.5rem;
+}
+
+.opt {
+  color: #d38f21;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.select {
+  font-size: 1.5rem;
+}
+
+ option {
+  color:#000;
+  font-size: 2rem;
+}
+
+/*
+
+📌  Que sea adaptable a Celular, Tablet, Notebook/pc.
+Celular : Desde 320px hasta 767px.
+Tablet : Desde 768px hasta 1023px.
+Notebook/Pc : 1024px en adelante.763
+*/
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+/* navbar*/
+
+nav {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+nav>a {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 900;
+  color: #fff,
+}
+
+nav>a:hover{
+  color: #fff;
+}
+
+nav>img {
+  width: 20%;
+  display: flex;
+  margin-left: 15%;
+}
+
+
+/* home*/
+
+.principal {
+  margin-top: 20rem;
+}
+
+.second {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin-left: 0%;
+}
+
+.wlc h5 {
+  text-align: center;
+  padding-left: 0%;
+}
+
+.img-2 img{
+  width: 100%;
+  margin-left: 0%;
+}
+
+
+/* about */
+
+.title-about {
+  margin-top: 20rem;
+  padding-bottom: 2rem;
+}
+
+.cont-about section {
+  display:flex;
+  flex-direction: column;
+  margin-top: 5%;
+}
+
+.cont-about img {
+  width: 100%;
+  padding-left: 0%;
+}
+
+.cont-about h6 {
+  padding-left: 0%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-left: 0%;
+}
+
+/* contact */
+
+.cont-contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20rem;
+}
+
+.title-contact {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title-contact h1 {
+  font-size: 40px;
+}
+
+.img-contact img {
+    border-radius: 2%;
+    width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.info h5 {
+  margin-top: 20px;
+  width: 100%;
+  font-size: large;
+  padding-left: 0%;
+}
+
+.dates {
+  margin-top: 20px;
+}
+
+.dates a {
+  font-size: 1rem;
+  padding: 0%;
+  text-decoration: none;
+}
+
+
+/* table */
+
+.cont-tb {
+  margin-top: 9rem;
+}
+
+.table-all {
+  width: 20rem;
+  font-size: 0.7rem;
+  height: 50vh;
+}
+
+.table-all th {
+  padding: 20px 15px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+
+/* list */
+
+.cont-lt {
+  margin-top: 100%;
+}
+
+.title-lt h1 {
+  font-size: 2.3rem;
+}
+
+.cont-lt section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+
+.d-ol {
+  margin-top: 2rem;
+}
+
+
+.section-one p {
+  width: 100%;
+}
+
+
+.section-one figure {
+  width: 100%;
+}
+
+
+.section-one img {
+  width: 100%;
+}
+
+.section-two {
+  padding-right: 0%;
+}
+
+.section-two figure {
+  width: 100%;
+}
+
+.section-two img {
+  width:  100%;
+}
+
+
+.d-ol h5 {
+  font-size: 1rem;
+}
+
+.d-ol ol li {
+  width: 100%;
+  font-size: 1rem;
+}
+
+
+/*from */
+
+.cont-from {
+  margin-top: 20rem;
+}
+
+.from-all {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.from-all img {
+  width: 40vh;
+  padding: 1rem;
+  border-radius: 1.2rem ;
+  margin-top: 5%;
+}
+
+.img-fr {
+  display: none;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 40vh;
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+.title-fr {
+  width: 45vh;
+  text-align: center;
+  padding: 0%;
+}
+
+fieldset {
+  padding: 0.5rem;
+}
+
+
+label {
+  padding: 0%;
+}
+
+.services {
+  height: 15vh;
+}
+
+.submit {
+  width: 10vh;
+  margin-left: 0.5rem;
+  height: 4vh;
+  margin-top: 4%;
+}
+
+.submit:hover {
+  background-color: #d38f21;
+}
+
+}
+
+
+/*
+Tablet : Desde 768px hasta 1023px.
+ */
+
+@media only screen and (min-width: 768px) and  (max-width: 1023px) {
+
+/* about */
+.cont-about img {
+  width: 40vh;
+  padding-left: 10%;
+}
+
+.cont-about h6 {
+  padding-left: 2rem;
+  padding-top: 5rem;
+}
+
+/* contact */
+
+
+.info h5 {
+  margin-top: 20px;
+  width: 100vh;
+  font-size: 1rem;
+  padding-left: 10rem;
+}
+
+.dates a {
+  font-size: 1.2rem;
+  padding: 100px;
+}
+
+/* list */
+
+.cont-lt section {
+  margin-left: 7rem;
+}
+
+.section-one p {
+  width: 1rem;
+}
+
+.section-one p {
+  width: 30%;
+}
+
+
+.section-one figure {
+  width: 60vh;
+}
+
+.section-one img {
+  width: 50%;
+}
+
+.section-two {
+  padding-right: 0rem;
+}
+
+.section-two figure {
+  width: 60vh;
+}
+
+.section-two img {
+  width:  55%;
+}
+
+.d-ol h5 {
+  font-size: 1.5rem;
+}
+
+.d-ol ol li {
+  width: 100%;
+  font-size: 1rem;
+}
+
+
+/* from */
+
+.from-all img {
+  width: 40vw;
+}
+
+.title-fr {
+  padding: 0%;
+}
+
+fieldset {
+  padding: 0%;
+}
+
+
+label {
+  padding:1%;
+}
+
+.services {
+  height: 10vh;
+}
+
+.submit {
+  width: 10vw;;
+}
+
+}
